@@ -25,7 +25,7 @@ const Index: React.FC = () => {
           </div>
 
           {/* Sidebar Column */}
-          <div className="w-[38%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="w-[38%] ml-5 max-md:w-full max-md:ml-0 self-start sticky top-0">
             <SidebarContent />
           </div>
         </div>
